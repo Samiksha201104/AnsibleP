@@ -3,7 +3,7 @@ agent any
 tools{
 maven 'Maven'
 }
-environmtnt{
+environment{
 LANG=en_US.UTF-8
 LC=en_US.UTF-8
 }
