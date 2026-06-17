@@ -4,8 +4,8 @@ tools{
 maven 'Maven'
 }
 environment{
-LANG=en_US.UTF-8
-LC=en_US.UTF-8
+LANG='en_US.UTF-8'
+LC='en_US.UTF-8'
 }
 stages
 {
