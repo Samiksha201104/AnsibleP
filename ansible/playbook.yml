@@ -1,9 +1,9 @@
--name: Deploy to Tomcat
- hosts: web
- become: yes
- tasks:
-    -name: Copy War to Tomcat
-     copy:
-       src: "/home/samiksha/Devops6D/AnsibleP/target/AnsibleP.war"
-       dest: "/opt/tomcat/webapps/AnsibleP.war"
+- name: Deploy to Tomcat
+  hosts: web
+  become: yes
+  tasks:
+     - name: Copy War to Tomcat
+       copy:
+         src: "/home/samiksha/Devops6D/AnsibleP/target/AnsibleP.war"
+         dest: "/opt/tomcat/webapps/AnsibleP.war"
        
